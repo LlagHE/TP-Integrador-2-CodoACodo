@@ -1,0 +1,74 @@
+:root {
+    --bs-success-rgb: 151, 201, 62;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    min-height: calc(100% - 80px - 80px);
+}
+
+#img_Carousel{
+    filter: brightness(50%);
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 600px;
+    height: 200px;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #97c93e;
+    border-color: #97c93e;
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+h2.titulo{
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+p.oradores {
+    margin-bottom: 0;
+}
+
+p.text-oradores{
+    font-size: 0.75rem;
+}
+
+
+textarea{
+    resize: none;
+}
+
+
+
+.footer-color{
+    background-color: #224960;
+}
+
+.w100px {
+    width: 100px;
+}

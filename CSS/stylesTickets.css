@@ -1,0 +1,80 @@
+:root {
+    --bs-success-rgb: 151, 201, 62;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    min-height: calc(100% - 56px - 88px);
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.categoria {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.categoria h4 {
+    font-size: 2rem;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+}
+
+.categoria p {
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.aclaracion {
+    font-size: 1rem;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.titulo h2 {
+    font-size: 2rem;
+}
+
+.titulo p {
+    margin: 0;
+}
+
+#Resumen {
+    resize: none;
+    width: calc(100% - 24px);
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 16px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #cce5ff;
+}
+
+textarea::placeholder {
+    line-height: 2.5rem;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #97c93e;
+    border-color: #97c93e;
+}
+
+
+.footer-color{
+    background-color: #224960;
+}
+
+.w100px {
+    width: 100px;
+}
